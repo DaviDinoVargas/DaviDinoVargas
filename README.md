@@ -5,9 +5,6 @@
   </div>
 </div>
 
-
-
----
 <h2 align="center">💻 Habilidades e Conhecimentos</h2>
 
 <p align="center">
