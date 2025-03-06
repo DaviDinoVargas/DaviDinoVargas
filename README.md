@@ -1,6 +1,8 @@
-<div align="center">
-  <h1 style="display: inline-block;"><strong>Olá, eu sou Davi "Dino" Vargas</strong></h1>
-  <img src="hrlcof29w8ae1.gif" height="80" style="display: inline-block;"/>
+<div align="center" style="position: relative; display: inline-block;">
+  <img src="hrlcof29w8ae1.gif" height="200" style="border-radius: 10px;"/>
+  <div>
+    <h1><strong>Olá, eu sou Davi "Dino" Vargas</strong></h1>
+  </div>
 </div>
 
 
