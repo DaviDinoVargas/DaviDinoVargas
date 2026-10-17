@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-label="Dinossauro roxo caminhando e puxando a placa com o perfil de Davi Dino Vargas">
+<title>Dinossauro puxando a placa de Davi “Dino” Vargas</title>
+<style>
+  :root { --fg:#1f2328; --muted:#59636e; --border:#d1d9e0; --card:#ffffff; --chip:#f6f8fa; --accent:#7c3aed; --shadow:#1f2328; --skid:#8c959f; --rope:#b08968; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#f0f6fc; --muted:#9198a1; --border:#3d444d; --card:#0d1117; --chip:#151b23; --accent:#a78bfa; --shadow:#000000; --skid:#6e7681; --rope:#c9a27c; }
+  }
+  text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Inter",Roboto,Helvetica,Arial,sans-serif; }
+  .travel { animation:travel 14.0s infinite; }
+  .sway { transform-origin:290px 244px; animation:sway 14.0s infinite; }
+  .card { fill:var(--card); stroke:var(--border); stroke-width:1.5; }
+  .accentbar { fill:var(--accent); opacity:.9; }
+  .avatar { fill:#7c3aed; }
+  .av { font-size:16px; font-weight:700; fill:#fff; }
+  .name { font-size:26px; font-weight:700; fill:var(--fg); letter-spacing:-.4px; }
+  .role { font-size:13px; fill:var(--muted); }
+  .line { fill:var(--border); }
+  .chip { fill:var(--chip); stroke:var(--border); }
+  .chiptxt { font-size:13px; font-weight:600; fill:var(--fg); }
+  .status { font-size:12px; fill:var(--muted); }
+  .skid { fill:var(--skid); }
+  .rope { stroke:var(--rope); stroke-width:3; stroke-linecap:round; }
+  .hook { fill:var(--rope); }
+  .shadow { fill:var(--shadow); opacity:.12; }
+  .ground { stroke:var(--border); stroke-width:1.5; stroke-linecap:round; }
+  .legA { animation:legA 14.0s infinite; }
+  .legB { animation:legB 14.0s infinite; }
+  .bobg { animation:bob 14.0s infinite; }
+  .tail { animation:tail 14.0s infinite; }
+  .breathe { transform-box:fill-box; transform-origin:center; animation:breathe 3s ease-in-out infinite; }
+  .eye { transform-box:fill-box; transform-origin:center; animation:blink 4s infinite; }
+@keyframes legA {
+  0.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  1.786% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  3.571% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  5.357% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  7.143% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  8.929% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  10.714% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  12.500% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  14.286% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  16.071% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  17.857% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  19.643% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  21.429% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  23.214% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  25.000% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  26.786% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  28.571% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  30.357% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  32.143% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  33.929% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  35.714% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  37.500% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  39.286% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  41.071% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  42.143% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  75.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  76.786% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  78.571% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  80.357% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  82.143% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  83.929% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  85.714% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  87.500% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  89.286% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  91.071% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  92.857% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  94.643% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  95.714% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  100% { transform:rotate(0deg); }
+}
+@keyframes legB {
+  0.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  1.786% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  3.571% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  5.357% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  7.143% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  8.929% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  10.714% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  12.500% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  14.286% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  16.071% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  17.857% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  19.643% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  21.429% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  23.214% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  25.000% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  26.786% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  28.571% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  30.357% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  32.143% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  33.929% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  35.714% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  37.500% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  39.286% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  41.071% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  42.143% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  75.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  76.786% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  78.571% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  80.357% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  82.143% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  83.929% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  85.714% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  87.500% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  89.286% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  91.071% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  92.857% { transform:rotate(28deg); animation-timing-function:ease-in-out; }
+  94.643% { transform:rotate(-28deg); animation-timing-function:ease-in-out; }
+  95.714% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  100% { transform:rotate(0deg); }
+}
+@keyframes bob {
+  0.000% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  0.893% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  1.786% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  2.679% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  3.571% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  4.464% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  5.357% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  6.250% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  7.143% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  8.036% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  8.929% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  9.821% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  10.714% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  11.607% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  12.500% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  13.393% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  14.286% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  15.179% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  16.071% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  16.964% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  17.857% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  18.750% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  19.643% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  20.536% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  21.429% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  22.321% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  23.214% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  24.107% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  25.000% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  25.893% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  26.786% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  27.679% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  28.571% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  29.464% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  30.357% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  31.250% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  32.143% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  33.036% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  33.929% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  34.821% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  35.714% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  36.607% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  37.500% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  38.393% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  39.286% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  40.179% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  41.071% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  41.964% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  42.143% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  75.000% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  75.893% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  76.786% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  77.679% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  78.571% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  79.464% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  80.357% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  81.250% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  82.143% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  83.036% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  83.929% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  84.821% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  85.714% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  86.607% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  87.500% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  88.393% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  89.286% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  90.179% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  91.071% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  91.964% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  92.857% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  93.750% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  94.643% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  95.536% { transform:translateY(-3px); animation-timing-function:ease-in-out; }
+  95.714% { transform:translateY(0px); animation-timing-function:ease-in-out; }
+  100% { transform:translateY(0px); }
+}
+@keyframes tail {
+  0.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  1.786% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  3.571% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  5.357% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  7.143% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  8.929% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  10.714% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  12.500% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  14.286% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  16.071% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  17.857% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  19.643% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  21.429% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  23.214% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  25.000% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  26.786% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  28.571% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  30.357% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  32.143% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  33.929% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  35.714% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  37.500% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  39.286% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  41.071% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  42.143% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  75.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  76.786% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  78.571% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  80.357% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  82.143% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  83.929% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  85.714% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  87.500% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  89.286% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  91.071% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  92.857% { transform:rotate(-5deg); animation-timing-function:ease-in-out; }
+  94.643% { transform:rotate(5deg); animation-timing-function:ease-in-out; }
+  95.714% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  100% { transform:rotate(0deg); }
+}
+@keyframes sway {
+  0.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  1.786% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  3.571% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  5.357% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  7.143% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  8.929% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  10.714% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  12.500% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  14.286% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  16.071% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  17.857% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  19.643% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  21.429% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  23.214% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  25.000% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  26.786% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  28.571% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  30.357% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  32.143% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  33.929% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  35.714% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  37.500% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  39.286% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  41.071% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  42.143% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  75.000% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  76.786% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  78.571% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  80.357% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  82.143% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  83.929% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  85.714% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  87.500% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  89.286% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  91.071% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  92.857% { transform:rotate(-0.7deg); animation-timing-function:ease-in-out; }
+  94.643% { transform:rotate(0.7deg); animation-timing-function:ease-in-out; }
+  95.714% { transform:rotate(0deg); animation-timing-function:ease-in-out; }
+  100% { transform:rotate(0deg); }
+}
+@keyframes travel {
+  0% { transform:translateX(-900px); animation-timing-function:cubic-bezier(.15,.6,.3,1); }
+  42.857% { transform:translateX(0); }
+  75.000% { transform:translateX(0); animation-timing-function:cubic-bezier(.6,0,.9,.55); }
+  97.143%,100% { transform:translateX(880px); }
+}
+@keyframes blink { 0%,90%,100% { transform:scaleY(1); } 94% { transform:scaleY(.1); } }
+@keyframes breathe { 0%,100% { transform:scale(1); } 50% { transform:scale(1.015); } }
+</style>
+
+<line x1="12" y1="244" x2="888" y2="244" class="ground"/>
+
+<g class="travel">
+
+<g class="sway">
+  <rect x="74" y="222" width="120" height="22" rx="8" class="skid"/>
+  <rect x="386" y="222" width="120" height="22" rx="8" class="skid"/>
+  <rect x="40" y="30" width="500" height="192" rx="18" class="card"/>
+  <rect x="40" y="30" width="500" height="6" rx="3" class="accentbar"/>
+  <g transform="translate(0 16)">
+  <circle cx="94" cy="68" r="25" class="avatar"/>
+  <text x="94" y="74" text-anchor="middle" class="av">DV</text>
+  <text x="134" y="66" class="name">Davi “Dino” Vargas</text>
+  <text x="134" y="88" class="role">Desenvolvedor C# &amp; Java · Back-end · Full Stack</text>
+  <rect x="68" y="108" width="444" height="1" class="line"/>
+  <rect x="68" y="122" width="56" height="28" rx="14" class="chip"/><circle cx="82" cy="136" r="4" fill="#239120"/><text x="93" y="140.5" class="chiptxt">C#</text><rect x="132" y="122" width="70" height="28" rx="14" class="chip"/><circle cx="146" cy="136" r="4" fill="#ED8B00"/><text x="157" y="140.5" class="chiptxt">Java</text><rect x="210" y="122" width="112" height="28" rx="14" class="chip"/><circle cx="224" cy="136" r="4" fill="#3178C6"/><text x="235" y="140.5" class="chiptxt">TypeScript</text><rect x="330" y="122" width="84" height="28" rx="14" class="chip"/><circle cx="344" cy="136" r="4" fill="#3776AB"/><text x="355" y="140.5" class="chiptxt">Python</text>
+  <rect x="68" y="158" width="70" height="28" rx="14" class="chip"/><circle cx="82" cy="172" r="4" fill="#512BD4"/><text x="93" y="176.5" class="chiptxt">.NET</text><rect x="146" y="158" width="119" height="28" rx="14" class="chip"/><circle cx="160" cy="172" r="4" fill="#6DB33F"/><text x="171" y="176.5" class="chiptxt">Spring Boot</text><rect x="273" y="158" width="91" height="28" rx="14" class="chip"/><circle cx="287" cy="172" r="4" fill="#DD0031"/><text x="298" y="176.5" class="chiptxt">Angular</text><rect x="372" y="158" width="112" height="28" rx="14" class="chip"/><circle cx="386" cy="172" r="4" fill="#CC2927"/><text x="397" y="176.5" class="chiptxt">SQL Server</text>
+  </g>
+</g>
+<path d="M540 196 C 600 238, 690 228, 741 150" class="rope" fill="none"/>
+<circle cx="741" cy="150" r="4.5" fill="#f59e0b"/>
+<circle cx="540" cy="196" r="4.5" class="hook"/>
+
+<g transform="translate(735 244)">
+  <ellipse cx="40" cy="1" rx="86" ry="6" class="shadow"/>
+  <g transform="translate(36 -44)"><g class="legB">
+      <rect x="-12" y="0" width="24" height="34" rx="11" fill="#6d28d9"/>
+      <ellipse cx="8" cy="36" rx="19" ry="7" fill="#6d28d9"/></g></g>
+  <g class="bobg">
+    <g transform="translate(14 -70)"><g class="tail">
+      <path d="M0 -4 C-30 -6 -62 14 -80 56 C-46 40 -16 36 12 40Z" fill="#7c3aed"/></g></g>
+    <g class="breathe">
+      <ellipse cx="50" cy="-76" rx="50" ry="42" fill="#8b5cf6"/>
+      <ellipse cx="62" cy="-66" rx="30" ry="28" fill="#ede9fe"/>
+      <path d="M10 -100 l8 -15 8 15Z M30 -112 l8 -15 8 15Z M50 -117 l8 -15 8 15Z" fill="#6d28d9"/>
+    </g>
+    <rect x="68" y="-152" width="88" height="68" rx="30" fill="#8b5cf6"/>
+    <ellipse cx="108" cy="-102" rx="10" ry="5.5" fill="#f9a8d4" opacity=".6"/>
+    <g class="eye"><circle cx="132" cy="-126" r="6.5" fill="#1e1b4b"/><circle cx="134" cy="-128" r="2" fill="#fff"/></g>
+    <circle cx="150" cy="-122" r="2.6" fill="#6d28d9"/>
+    <path d="M118 -102 Q134 -92 150 -102" stroke="#6d28d9" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <path d="M70 -96 Q92 -82 114 -94 L116 -83 Q92 -69 70 -83Z" fill="#f59e0b"/>
+    <path d="M94 -74 Q104 -66 112 -68" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(68 -44)"><g class="legA">
+      <rect x="-12" y="0" width="24" height="34" rx="11" fill="#7c3aed"/>
+      <ellipse cx="8" cy="36" rx="19" ry="7" fill="#7c3aed"/></g></g>
+</g>
+</g>
+</svg>
